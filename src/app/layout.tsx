@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-screen h-screen bg-black overflow-x-hidden">
+      <body className="w-screen h-screen bg-black overflow-x-hidden max-sm:relative">
         <Nav/>
         {children}
       </body>
