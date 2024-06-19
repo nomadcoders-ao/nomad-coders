@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-screen h-screen bg-black overflow-x-hidden max-sm:relative">
+      <body className="max-w-screen h-screen bg-black overflow-x-hidden">
         <Nav/>
         {children}
         <Footer/>
