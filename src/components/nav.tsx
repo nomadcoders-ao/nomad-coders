@@ -12,7 +12,7 @@ export default function Nav(){
     return(
         <header className="w-full max-sm:h-[18vw] max-lg:h-[10vw] h-[4vw] bg-white flex justify-between items-center max-lg:px-[7vw] px-[7vw]  max-sm:relative">
             <Link href={"/"} className="h-full w-fit flex justify-start items-center">
-                <Image className="object-contain max-sm:h-[50%] max-lg:h-[50%] h-full w-auto" width={1000} height={500} alt="" src={"/assets/favicon.png"} />
+                <Image className="object-contain max-sm:h-[50%] max-lg:h-[50%] h-[80%] w-auto" width={1000} height={500} alt="" src={"/assets/favicon.png"} />
                 <span className="text-[#0a1763] text-[1.2vw] max-sm:text-[4vw] max-lg:text-[2.3vw] max-sm:font-bold font-semibold">Nomad Coders</span>
             </Link>
             <button className="flex-none hidden max-sm:flex group max-sm:h-[8vw] max-sm:w-[8vw] max-sm:items-center max-sm:justify-center" onClick={()=>setState(!state)}>
