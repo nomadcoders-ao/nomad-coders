@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="max-w-screen h-screen bg-black overflow-x-hidden">
         <Nav/>
-          <main className="w-full h-[1200px]">
+          <main className="w-full h-[1200px] flex flex-col">
             {children}
           </main>
         <Footer/>
