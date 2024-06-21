@@ -16,6 +16,19 @@ export default function Home() {
           <MoveRight className="text-white text-[1vw] max-lg:text-[1.6vw] max-sm:text-[3vw] pt-[0.1vw] group-focus:text-blue-700 group-focus:duration-300" />
         </Link>
       </div>
+      <div className="w-full h-[750px] bg-black flex flex-col justify-center pl-[15vw] relative">
+        <div className="flex w-full h-fit">
+          <Image className="w-[55vw] h-[40vw] rounded-lg" alt="" width={1000} height={700} src={"/assets/menina1.jpg"} />
+          <div>
+            <h1></h1>
+            <span></span>
+          </div>
+        </div>
+        <div>
+
+        </div>
+        <Image alt="" width={1000} height={700} src={""} />
+      </div>
     </>
   );
 }
