@@ -16,18 +16,38 @@ export default function Home() {
           <MoveRight className="text-white text-[1vw] max-lg:text-[1.6vw] max-sm:text-[3vw] pt-[0.1vw] group-focus:text-blue-700 group-focus:duration-300" />
         </Link>
       </div>
-      <div className="w-full h-[750px] bg-black flex flex-col justify-center pl-[15vw] relative">
-        <div className="flex w-full h-fit">
-          <Image className="w-[55vw] h-[40vw] rounded-lg" alt="" width={1000} height={700} src={"/assets/menina1.jpg"} />
-          <div>
-            <h1></h1>
-            <span></span>
+      <div className="w-full h-fit bg-white flex flex-col pb-[15vw] pt-[5vw] pl-[10vw] max-lg:pl-[7vw] max-sm:px-[10vw] relative">
+        <div className="flex w-full h-fit gap-[0.5vw] items-start max-sm:flex-col-reverse max-sm:mb-[6vw]">
+          <Image className="w-[45vw] h-[30vw] max-lg:w-[50vw] max-sm:w-full max-sm:h-[50vw] rounded-xl object-cover" alt="" width={1000} height={700} src={"/assets/menina1.jpg"} />
+          <div className="h-fit w-fit flex flex-col justify-start pl-[1vw]">
+            <h1 className="font-extrabold text-blue-700 text-[3.5vw] max-lg:text-[3vw] max-sm:text-[6.5vw] max-sm:text-center max-sm:mb-[6vw]">
+              Na Nomadcoders, <br />
+              você encontra todo <br />
+              tipo de coisa
+            </h1>
+            <span className="text-gray-700 text-[1vw] max-lg:text-[1.5vw] max-sm:text-[3.2vw] max-sm:text-center max-sm:my-[3vw]">
+              Permite que histórias sejam <br />
+              compartilhadas Permite quehistórias sejam <br />
+              compartilhadas Permite que histórias sejamcompartilhadas <br />
+              Permite que histórias sejam compartilhadas 
+            </span>
           </div>
         </div>
-        <div>
-
+        <div className="flex gap-[4vw] max-lg:gap-[1.2vw] max-sm:justify-between pt-[1vw]">
+          <div className="h-fit w-fit">
+            <h1 className="font-extrabold text-blue-700 text-[3vw] max-lg:text-[3vw] max-sm:text-[6.5vw]">50 +</h1>
+            <span className="text-gray-700 text-[1.2vw] max-lg:text-[1.5vw] max-sm:text-[3.2vw]">Projetos feitos</span>
+          </div>
+          <div className="h-fit w-fit">
+            <h1 className="font-extrabold text-blue-700 text-[3vw] max-lg:text-[3vw] max-sm:text-[6.5vw]">30 +</h1>
+            <span className="text-gray-700 text-[1.2vw] max-lg:text-[1.5vw] max-sm:text-[3.2vw]">Clientes datisfeitos</span>
+          </div>
+          <div className="h-fit w-fit">
+            <h1 className="font-extrabold text-blue-700 text-[3vw] max-lg:text-[3vw] max-sm:text-[6.5vw]">50 +</h1>
+            <span className="text-gray-700 text-[1.2vw] max-lg:text-[1.5vw] max-sm:text-[3.2vw]">Projetos feitos</span>
+          </div>
         </div>
-        <Image alt="" width={1000} height={700} src={""} />
+        <Image className="w-[35vw] h-[20vw] max-sm:w-full max-sm:h-[50vw] rounded-xl object-cover max-sm:static absolute border-4 border-white top-[30vw] left-[45vw] max-lg:top-[30vw] max-lg:left-[47vw]" alt="" width={1000} height={700} src={"/assets/menina no pc.jpg"} />
       </div>
     </>
   );

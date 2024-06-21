@@ -24,3 +24,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #0a1763;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
