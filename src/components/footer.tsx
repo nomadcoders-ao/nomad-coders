@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer(){
     return(
-        <footer className="h-fit w-full py-[4vw] px-[10vw] bg-white grid gap-4 max-lg:gap-6 max-sm:gap-8 grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1">
+        <footer className="h-fit w-full py-[6vw] px-[10vw] bg-white grid gap-4 max-lg:gap-6 max-sm:gap-8 grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1">
             <div className="w-full h-[20vw] max-lg:h-[26vw] max-sm:h-fit gap-[0.2vw] flex flex-col">
                 <Link href={"/"} className="h-fit w-fit flex justify-start">
                     <span className="text-[#0a1763] text-[1.7vw] max-sm:text-[4.5vw] max-lg:text-[2.3vw] font-bold">Nomad Coders</span>
