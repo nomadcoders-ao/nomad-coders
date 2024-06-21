@@ -8,4 +8,19 @@
   background-size: cover;
   background-position: center;
 }
-  
+
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: white;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #1d4ed8; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0a1763;
+}
