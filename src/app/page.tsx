@@ -1,4 +1,5 @@
 import ContadorAuto from "@/components/contadorauto";
+import SlideAuto from "@/components/slideauto";
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -93,10 +94,10 @@ export default function Home() {
               <span className="text-center text-[1.3vw] max-lg:text-[2.7vw] max-sm:text-[4vw] font-bold text-white">Profissional de suporte </span>
               <span className="text-center text-[0.8vw] max-lg:text-[1.8vw] max-sm:text-[3vw] text-white">Há profissionais disponíveis para ajudar a escolher os serviços mais adequados às necessidades específicas.</span>
             </Link>
-            
           </div>
         </div>
       </div>
+      <SlideAuto/>
     </>
   );
 }
