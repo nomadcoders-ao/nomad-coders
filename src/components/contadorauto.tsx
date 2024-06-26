@@ -37,7 +37,7 @@ const ContadorAuto: React.FC<{ target: number }> = ({ target }) => {
     };
   }, [target]);
 
-  return <span ref={counterRef} className="font-extrabold text-blue-700 text-[3vw] max-lg:text-[3vw] max-sm:text-[6vw]">0</span>;
+  return <span ref={counterRef} >0</span>;
 };
 
 export default ContadorAuto ;
