@@ -37,7 +37,7 @@ export default function Home() {
         </div>
         <div className="flex gap-[4vw] max-lg:gap-[1.2vw] max-sm:justify-between pt-[1vw] max-sm:my-[5vw]">
           <div className="h-fit w-fit flex flex-col max-sm:items-center">
-          <ContadorAuto target={50} />
+            <h1><ContadorAuto target={50} /> </h1>
             <span className="text-gray-700 text-[1.2vw] max-lg:text-[1.5vw] max-sm:text-[3.2vw]">Projetos feitos</span>
           </div>
           <div className="h-fit w-fit flex flex-col max-sm:items-center">
