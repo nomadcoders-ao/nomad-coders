@@ -1,5 +1,9 @@
 export default function Eventos(){
     return(
-        <main></main>
+        <>
+          <div className="w-full h-[704px] bgbluegradient">
+                
+          </div>
+        </>
     );
 }
