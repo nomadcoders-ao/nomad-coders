@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import { Pagination } from 'swiper/modules';
+import Event_Link from '@/components/event_link';
 export default function Eventos(){
     return(
         <>
@@ -19,15 +20,15 @@ export default function Eventos(){
                       slidesPerView={1.4}
                       spaceBetween={30}
                       pagination={{clickable: true,}}
-                      modules={[Pagination]}
+                      // modules={[Pagination]}
                       loop={true}
                       className="w-full h-full"
                     >
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 1</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 2</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 3</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 4</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 5</SwiperSlide>
+                      <SwiperSlide><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link/></SwiperSlide>
                     </Swiper> 
                   </div>
                 </div>
@@ -43,15 +44,15 @@ export default function Eventos(){
                       slidesPerView={1.4}
                       spaceBetween={30}
                       pagination={{clickable: true,}}
-                      modules={[Pagination]}
+                      // modules={[Pagination]}
                       loop={true}
                       className="w-full h-full"
                     >
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 1</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 2</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 3</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 4</SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw] bg-slate-800'>Slide 5</SwiperSlide>
+                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
+                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
+                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
+                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
+                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
                     </Swiper> 
                   </div>
                 </div>
