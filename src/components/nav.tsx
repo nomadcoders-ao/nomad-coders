@@ -18,7 +18,7 @@ export default function Nav(){
             <button className="flex-none hidden max-sm:flex group max-sm:h-[8vw] max-sm:w-[8vw] max-sm:items-center max-sm:justify-center" onClick={()=>setState(!state)}>
                 <SquareMenu size={36} className={`${!state?"text-gray-700":"text-white fill-blue-700"} max-sm:text-[100vw] duration-500`} />
             </button>
-            <ul ref={menu} className={`${state?"max-sm:left-0":"max-sm:left-[1000px]"} duration-300 flex gap-[3vw] max-sm:h-[calc(100%_-_18vw)] max-sm:items-start max-sm:py-[1.5vw] max-sm:gap-0 max-sm:w-full max-sm:flex-col max-sm:flex-none max-sm:z-50 max-sm:fixed max-sm:bottom-0 bg-white max-sm:left-0`}>
+            <ul ref={menu} className={`${state?"max-sm:left-0 max-sm:overflow-y-hidden":"max-sm:left-[1000px]"} duration-300 flex gap-[3vw] max-sm:h-[calc(100%_-_18vw)] max-sm:items-start max-sm:py-[1.5vw] max-sm:gap-0 max-sm:w-full max-sm:flex-col max-sm:flex-none max-sm:z-50 max-sm:fixed max-sm:bottom-0 bg-white max-sm:left-0`}>
                  <li className="max-sm:h-fit max-sm:w-full">
                     <Link href={"/"} className="max-sm:w-full max-sm:h-[12vw] flex max-sm:gap-[1.5vw] max-sm:flex group max-sm:items-center max-sm:px-[6.5vw]">
                         <Home  className={`${router==="/"&&"fill-blue-700 text-white"} text-[1.2vw] max-sm:text-[7vw] text-gray-700 group-focus:fill-blue-700 group-focus:text-white group-focus:duration-500 hidden flex-none max-sm:flex`} />
