@@ -15,7 +15,7 @@ const ContadorAuto: React.FC<{ target: number }> = ({ target }) => {
       const currentCount = +counter.innerText;
       if (currentCount < target) {
         counter.innerText = `${Math.ceil(currentCount + increment)}`;
-        setTimeout(updateCounter, 10);
+        setTimeout(updateCounter, 50);
       } else {
         counter.innerText = `${target}`;
       }
@@ -37,7 +37,7 @@ const ContadorAuto: React.FC<{ target: number }> = ({ target }) => {
     };
   }, [target]);
 
-  return <span ref={counterRef} >0</span>;
+  return <span ref={counterRef}>0</span>;
 };
 
 export default ContadorAuto ;

@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <div className="w-full h-[704px] boysbg pl-[15vw] max-lg:pl-[10vw] max-sm:pl-[7vw] flex flex-col justify-center">
+      <div className="w-full h-[45vw] max-lg:h-[55vw] max-sm:h-[150vw] boysbg pl-[15vw] max-lg:pl-[10vw] max-sm:pl-[7vw] flex flex-col justify-center">
         <h1 className="font-extrabold text-white text-[3.5vw] max-lg:text-[4.5vw] max-sm:text-[6.5vw]">
           Na <span className="underline decoration-solid decoration-blue-700">NomadCoders,</span> <br />
           reunimos desenvolvedores

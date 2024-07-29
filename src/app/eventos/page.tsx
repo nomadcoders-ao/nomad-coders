@@ -24,11 +24,14 @@ export default function Eventos(){
                       loop={true}
                       className="w-full h-full"
                     >
-                      <SwiperSlide><Event_Link/></SwiperSlide>
-                      <SwiperSlide><Event_Link/></SwiperSlide>
-                      <SwiperSlide><Event_Link/></SwiperSlide>
-                      <SwiperSlide><Event_Link/></SwiperSlide>
-                      <SwiperSlide><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
                     </Swiper> 
                   </div>
                 </div>
@@ -48,14 +51,62 @@ export default function Eventos(){
                       loop={true}
                       className="w-full h-full"
                     >
-                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
-                      <SwiperSlide className='h-full w-[50vw]'><Event_Link/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                      <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
                     </Swiper> 
                   </div>
                 </div>
+          </div>
+
+          <div className='w-full h-fit p-[7vw] flex flex-col gap-[2vw]'>
+            <div>
+              <h1 className="font-extrabold text-blue-700 text-[5vw] max-lg:text-[5.5vw] max-sm:text-[8vw]">Todos <br /> Eventos</h1>
+              <span className="text-gray-700 text-[1.2vw] max-lg:text-[2vw] max-sm:text-[3.5vw]">Aqui você encontra evento que voram lançados.</span>
+            </div>
+            <div className='w-full h-[20vw] max-lg:h-[30vw] max-sm:h-[90%]'>
+              <Swiper
+                slidesPerView={3}
+                spaceBetween={20}
+                pagination={{clickable: true,}}
+                 // modules={[Pagination]}
+                loop={true}
+                className="w-full h-full"
+                >
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                </Swiper> 
+            </div>
+            <div className='w-full h-[20vw] max-lg:h-[30vw] max-sm:h-[90%]'>
+              <Swiper
+                slidesPerView={3}
+                spaceBetween={20}
+                pagination={{clickable: true,}}
+                 // modules={[Pagination]}
+                loop={true}
+                className="w-full h-full"
+                >
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='Eat Sleep Repeat' bg='url(/bg2.svg)' date='05/07/2024' descrition='Eat Sleep Repeat um evento' time='2/5 AM'/></SwiperSlide>
+                  <SwiperSlide><Event_Link name='next level week' bg='url(/bg3.svg)' date='05/07/20242/5 AM' descrition='next level week um evento' time='2/5 AM'/></SwiperSlide>
+                </Swiper> 
+            </div>
           </div>
         </>
     );
